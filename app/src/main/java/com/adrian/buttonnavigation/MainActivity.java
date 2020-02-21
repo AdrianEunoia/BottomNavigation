@@ -112,5 +112,6 @@ public class MainActivity extends AppCompatActivity implements AdaptadorRecycler
         fragmentTransaction.replace(R.id.idfragments, FragmentAlert.newInstance(liga));
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
+
     }
 }
